@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="img/nitc-logo-favicon.png">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Outreach - NITC R&amp;C</title>
+
+
+        <!-- jQuery, Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Custom JS -->
+        <script>        
+            $(function(){
+                //$("#content").hide();
+                $("#head").load("header.html");
+                $("#menu").load("menu.html", function() {
+                    $("#menu-outreach").addClass("active");
+                    //$("#content").show();
+                });
+                $("#foot").load("footer.html");
+            });
+        </script>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <header class="p-4">
+            <div id="head"></div>
+            <div id="menu"></div>
+        </header>
+
+        <div id="content" class="container text-justify">
+            <h2 class="h4 mt-4">GIAN Courses</h2>
+            <p>Global Initiative of Academic Networks (GIAN) in Higher Education is aimed at tapping the talent pool of scientists and entrepreneurs, internationally to encourage their engagement with the institutes of Higher Education in India so as to augment the country's existing academic resources, accelerate the pace of quality reform, and elevate India's scientific and technological capacity to global excellence. NIT Calicut is an active participant in the GIAN Project and has offered several courses.<br>
+            <a href="http://www.nitc.ac.in/GIAN/" target="_blank" type="button" class="btn btn-outline-dark">Details</a></p>
+            
+            <h2 class="h4 mt-4">VAJRA Scheme</h2>
+            <p>Government of India has announced the launching of VAJRA (Visiting Advanced Joint Research) Faculty scheme by the Department of Science and Technology which enables NRIs and overseas scientific community to participate and contribute to research and development in India. The Science and Engineering Research Board (SERB), a Statutory body of the Department will implement the Scheme.<br>
+            <a href="http://dst.gov.in/vajra" target="_blank" type="button" class="btn btn-outline-dark">Details</a></p>
+            
+            <h2 class="h4 mt-4">Unnat Bharta Abhiyaan</h2>
+            <p>Unnat Bharat Abhiyan is inspired by the vision of transformational change in rural development processes by leveraging knowledge institutions to help build the architecture of an Inclusive India. The program was formally launched by the Ministry of Human Resource Development (MHRD) in presence of The President of India on 11th Novembter, 2014. NIT Calicut has planned various activities to meet the objectives of this national program.<br>
+            <a href="http://unnatbharatabhiyan.gov.in/" target="_blank" type="button" class="btn btn-outline-dark">Details</a></p>
+            
+            <h2 class="h4 mt-4">Rashtriya Avishkar Abhiyan</h2>
+            <p>In pursuance of the focus on connecting school based knowledge to life outside the school and making learning of Science Mathematics a joyful and meaningful activity, to bring focus on innovation and use of technology, the Ministry of Human Resource Development has set up the Rashtriya Avishkar Abhiyan(RAA) - a convergent framework that aims at nurturing a spirit of inquiry and creativity, love for Science and Mathematics and effective use of technology amongst children and encourage those who show an inclination and talent for these subjects to be encouraged and supported to heights of academic excellence and research.<br>
+            <a href="http://mhrd.gov.in/rashtriya-avishkar-abhiyan" target="_blank" type="button" class="btn btn-outline-dark">Details</a></p>
+        </div>
+
+        <footer id="foot" class="footer mt-auto"></footer>
+    </body>
+</html>

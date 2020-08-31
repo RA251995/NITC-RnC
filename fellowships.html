@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="img/nitc-logo-favicon.png">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Fellowships - NITC R&amp;C</title>
+
+
+        <!-- jQuery, Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Custom JS -->
+        <script>        
+            $(function(){
+                //$("#content").hide();
+                $("#head").load("header.html");
+                $("#menu").load("menu.html", function() {
+                    $("#menu-fellowships").addClass("active");
+                    //$("#content").show();
+                });
+                $("#foot").load("footer.html");
+            });
+        </script>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <header class="p-4">
+            <div id="head"></div>
+            <div id="menu"></div>
+        </header>
+
+        <div id="content" class="container p-4">
+            <h2 class="h3 text-center">RESEARCH FELLOWSHIPS</h2>
+            <p>In addition to Institute fellowships (under Teaching Assistantship), there are additional funding opportunities for research scholars.</p>
+            <div class="list-group">
+                <a href="https://phd.medialabasia.in/" target="_blank" class="list-group-item list-group-item-action">Visvesvaraya Ph.D. Scheme</a>
+                <a href="https://www.ugc.ac.in/page/Scholarships-and-Fellowships.aspx" target="_blank" class="list-group-item list-group-item-action">UGC Fellowships</a>
+            </div>
+            <h3 class="h5 mb-3 mt-4">CSIR Fellowships</h3>
+            <div class="list-group">
+                <a href="https://csirhrdg.res.in/" target="_blank" class="list-group-item list-group-item-action">CSIR Research Grants</a>
+                <a href="https://csirhrdg.res.in/" target="_blank" class="list-group-item list-group-item-action">CSIR GATE qualified Junior Research Fellowship for PhD for Engineering Graduates</a>
+                <a href="https://csirhrdg.res.in/" target="_blank" class="list-group-item list-group-item-action">CSIR Shyama Mukherjee Fellowship</a>
+            </div>
+        </div>
+
+        <footer id="foot" class="footer mt-auto py-3"></footer>
+    </body>
+</html>

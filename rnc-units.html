@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="img/nitc-logo-favicon.png">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>R&amp;C Units - NITC R&amp;C</title>
+
+
+        <!-- jQuery, Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Custom JS -->
+        <script>        
+            $(function(){
+                //$("#content").hide();
+                $("#head").load("header.html");
+                $("#menu").load("menu.html", function() {
+                    $("#menu-rnc-units").addClass("active");
+                    //$("#content").show();
+                });
+                $("#foot").load("footer.html");
+            });
+        </script>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <header class="p-4">
+            <div id="head"></div>
+            <div id="menu"></div>
+        </header>
+
+        <div id="content" class="container p-4 text-justify">
+            <h2 class="h3 text-center">RESEARCH &amp; CONSULTANCY UNITS IN THE INSTITUTE</h2>
+            <h3 class="h4 mt-4">Technology Business Incubator (TBI)</h3>
+            <p><strong>NITC has a very successful TBI</strong></p>
+            <ul>
+                <li>Established in 2004.</li>
+                <li>Funding from DST, MSME, etc.</li>
+                <li>34 companies graduated.</li>
+                <li>13 companies under incubation.</li>
+                <li>Faculty closely associated with the running of TBI-technical &amp; administrative matters.</li>
+                <li>Student internships provided.</li>
+            </ul>
+            <p>Please visit the TBI website for further details.</p>
+            <a href="http://www.tbi.nitc.ac.in/" target="_blank" type="button" class="btn btn-block btn-outline-primary">TBI Website</a>
+            
+            <h3 class="h4 mt-4">Centre for Continuing Education (CCE)</h3>
+            <p>The Centre for Continuing Education provides support for conducting faculty development programmes for faculty of engineering, science and management. It also helps working professionals in the industry by offering specialized training programmes.</p>
+            <p>Please visit the CCE website for further details.</p>
+            <a href="http://www.nitc.ac.in/cec/index.html" target="_blank" type="button" class="btn btn-block btn-outline-primary">CCE Website</a>
+            
+            <h3 class="h4 mt-4">Design Innovation Centre</h3>
+            <p>Funded by MHRD to promote innovation in engineering design started in 2015-2016 Collaboration with IISc, Bangalore.</p>
+            
+            <h3 class="h4 mt-4">Centre for Transportation Research (CTR)</h3>
+            <p>The Centre for Transportation Research (CTR) is a Centre of Excellence funded by the Ministry of Human Resources Development, under the scheme ‘Establishment of 50 Centres of Excellence in frontier areas of Science and Technology’, in the year 2013.</p>
+            <p>Please visit the CTR website for further details.</p>
+            <a href="http://www.nitc.ac.in/index.php/?url=department/index/47" target="_blank" type="button" class="btn btn-block btn-outline-primary">CTR Website</a>
+            
+            <h3 class="h4 mt-4">IPR Cell and Patent Promotion Unit</h3>
+            <p>Supported by KSCSTE</p>
+            <ul>
+                <li>To generate awareness about the significance of IPR.</li>
+                <li>To guide inventors in protecting their IPR.</li>
+                <li>To help in identifying patentable inventions</li>
+                <li>13 companies under incubation.</li>
+                <li>To provide training, innovation workshops, IP clinics, etc.</li>
+            </ul>
+            
+            <h3 class="h4 mt-4">Industry Institute Interaction Cell</h3>
+            <p>The Institute has a dedicate cell to act as n effective liaison between the Institute and Industries.</p>
+            <p>Please visit the IIIC website for further details.</p>
+            <a href="http://www.nitc.ac.in/index.php/?url=content/submenu/5163/1" target="_blank" type="button" class="btn btn-block btn-outline-primary">IIIC Website</a>
+        </div>
+
+        <footer id="foot" class="footer mt-auto"></footer>
+    </body>
+</html>

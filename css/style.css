@@ -1,0 +1,130 @@
+a {
+    color: #0072e9;
+}
+
+header {
+    background-color: #002c5a;
+    background: linear-gradient(45deg, rgba(0,44,90,0.5) 0%, rgba(0,44,90,0.5) 60%, rgba(2,0,36,0.5) 100%), top url('../img/bg.jpg');
+    background-size: cover;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #002c5a;
+    background: linear-gradient(45deg, rgba(2,0,36,0.5) 0%, rgba(0,44,90,0.5) 50%, rgba(0,44,90,0.5) 100%), bottom url('../img/bg.jpg');
+    background-size: cover;
+    color: #ffffff;
+}
+
+#footer-top {
+    background-color: #002142;
+}
+
+#logo {
+    width: 15%;
+    min-width: 60px;
+    max-width: 90px;
+}
+
+header h1 {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 1.5em;
+}
+
+header h2 {
+    font-size: 1em;
+}
+
+header nav {
+    background-color: #002142;
+}
+
+.btn-outline-primary {
+    color: #002c5a;
+    border-color: #002c5a;
+}
+
+.btn-outline-primary:hover {
+    color: #FFF;
+    background-color: #002c5a; 
+}
+
+.card:hover {
+    background-color: #efefef;
+}
+
+aside .list-group {
+    max-height: 500px;
+}
+
+#agencies-carousel {
+    padding: 0 20%;
+}
+
+#agencies-carousel .col-md-3 {
+    display: inline-block;
+    margin-left:-4px;
+}
+
+#agencies-carousel .col-md-3 img {
+    width:100%;
+    height:auto;
+}
+
+#agencies-carousel .carousel-control-prev-icon,
+#agencies-carousel .carousel-control-next-icon{
+    background-color: #AAA;
+    color: red;
+}
+
+#v-pills-tab .nav-link.active {
+    background-color: #002c5a;
+    color: #FFF;
+}
+
+#v-pills-tab .nav-link {
+    color: #002c5a;
+}
+
+.table .thead-dark th {
+    background-color: #002c5a;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+/*************************************************************/
+
+@media (min-width: 576px) { 
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header h2 {
+        font-size: 1.25em;
+    }
+
+    #agencies-carousel {
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) { 
+
+}
+
+@media (min-width: 992px) { 
+    header h1 {
+        font-size: 3.25em;
+    }
+
+    header h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 1200px) { 
+
+}
+
+/**************** Multi-Item Carousel CSS ******************/
+

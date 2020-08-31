@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="img/nitc-logo-favicon.png">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Funding Agencies - NITC R&amp;C</title>
+
+        <!-- jQuery, Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Custom JS -->
+        <script>        
+            $(function(){
+                //$("#content").hide();
+                $("#head").load("header.html");
+                $("#menu").load("menu.html", function() {
+                    $("#menu-funding-agencies").addClass("active");
+                    //$("#content").show();
+                });
+                $("#foot").load("footer.html");
+
+                $.getJSON("db/agencies.json", function(data) {
+                    for (var i = 0; i < data.length; i++) {
+                        console.log(data[i].agency+"|"+data[i].link+"|");
+                        $("#agencies").append("<div class='col p-0'><a href='"+data[i].link+"' target='_blank' class='card h-100 text-center text-body text-decoration-none'><img src='"+data[i].img_src+"' class='card-img-top' alt='"+data[i].alt_text+"'><div class='card-body px-2 py-1'><p class='card-title'>"+data[i].agency+"</p></div></a></div>");
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body class="d-flex flex-column h-100">
+        <header class="p-4">
+            <div id="head"></div>
+            <div id="menu"></div>
+        </header>
+
+        <div id="content" class="container p-4">
+            <h2 class="h3 text-center pb-2">FUNDING AGENCIES</h2>
+            <div id="agencies" class="row row-cols-1 row-cols-md-4 row-cols-sm-3 row-cols-2 justify-content-center py-2">
+            </div>
+        </div>
+
+        <footer id="foot" class="footer mt-auto"></footer>
+    </body>
+</html>

@@ -1,0 +1,110 @@
+[
+  {
+    "agency": "Department of Science and Technology (DST)",
+    "link": "http://www.dst.gov.in/call-for-proposals",
+    "img_src": "img/dst-logo.png",
+    "alt_text": "DST"
+  },
+  {
+    "agency": "Science and Engineering Research Board (SERB)",
+    "link": "http://serbonline.in/SERB/HomePage.do",
+    "img_src": "img/serb-logo.png",
+    "alt_text": "SERB"
+  },
+  {
+    "agency": "University Grants Commission (UGC)",
+    "link": "https://www.ugc.ac.in/ugc_schemes/",
+    "img_src": "img/ugc-logo.png",
+    "alt_text": "UGC"
+  },
+  {
+    "agency": "All India Council for Technical Education (AICTE)",
+    "link": "https://www.aicte-india.org/schemes/research-innovations-development-schemes",
+    "img_src": "img/aicte-logo.png",
+    "alt_text": "AICTE"
+  },
+  {
+    "agency": "The Council of Scientific & Industrial Research (CSIR)",
+    "link": "http://csirhrdg.res.in/resg/Res_grants.htm",
+    "img_src": "img/csir-logo.png",
+    "alt_text": "CSIR"
+  },
+  {
+    "agency": "Defence Research and Development Organization (DRDO)",
+    "link": "https://www.drdo.gov.in/drdo/English/index.jsp?pg=thrustareas.jsp",
+    "img_src": "img/drdo-logo.png",
+    "alt_text": "DRDO"
+  },
+  {
+    "agency": "Board of Research in Nuclear Sciences (BRNS)",
+    "link": "https://brns.res.in/",
+    "img_src": "img/brns-logo.png",
+    "alt_text": "BRNS"
+  },
+  {
+    "agency": "Department of Biotechnology",
+    "link": "http://www.dbtindia.nic.in/funding-mechanism/call/",
+    "img_src": "img/dbt-logo.png",
+    "alt_text": "DBT"
+  },
+  {
+    "agency": "Ministry of Coal & Mines",
+    "link": "http://www.scienceandtech.cmpdi.co.in/index.php",
+    "img_src": "img/cmpdi-logo.png",
+    "alt_text": "CMPDI"
+  },
+  {
+    "agency": "Indian Council of Medical Research",
+    "link": "http://www.icmr.nic.in/",
+    "img_src": "img/icmr-logo.png",
+    "alt_text": "ICMR"
+  },
+  {
+    "agency": "Ministry of Earth Sciences - Extramural Support",
+    "link": "http://www.moes.gov.in/content/brief-extramural-support",
+    "img_src": "img/moes-logo.png",
+    "alt_text": "MOES"
+  },
+  {
+    "agency": "Department of Space Indian Space Research Organisation (ISRO) Sponsored Research (RESPOND)",
+    "link": "https://www.isro.gov.in/sponsored-research-respond",
+    "img_src": "img/isro-logo.png",
+    "alt_text": "ISRO"
+  },
+  {
+    "agency": "Ministry of Electronics and Information Technology (MEIT)",
+    "link": "http://meity.gov.in/content/schemes-policies",
+    "img_src": "img/meity-logo.png",
+    "alt_text": "MEITY"
+  },
+  {
+    "agency": "Ministry of New and Renewable Energy (MNRE)",
+    "link": "http://www.mnre.gov.in/schemes/r-d/rd-formats/",
+    "img_src": "img/mnre-logo.png",
+    "alt_text": "MNRE"
+  },
+  {
+    "agency": "Central Power Research Institute, Ministry of Power (CPRI, MoP)",
+    "link": "http://www.cpri.in/r-a-d-schemes/research-scheme.html",
+    "img_src": "img/cpri-logo.png",
+    "alt_text": "CPRI"
+  },
+  {
+    "agency": "Indian National Academy of Engineering (INAE)",
+    "link": "https://inae.in/mentoring-schemes-2/",
+    "img_src": "img/inae-logo.png",
+    "alt_text": "INAE"
+  },
+  {
+    "agency": "Indo-US Science and Technology Forum (IUSSTF)",
+    "link": "http://www.iusstf.org/",
+    "img_src": "img/iusstf-logo.png",
+    "alt_text": "IUSSTF"
+  },
+  {
+    "agency": "Kerala State Council for Science, Technology and Environment (KSCSTE)",
+    "link": "http://www.kscste.kerala.gov.in/index.php/programmes-initiatives/technology-development-%20transfer/engineering-technology-programmes",
+    "img_src": "img/kscste-logo.png",
+    "alt_text": "KSCSTE"
+  }
+]
