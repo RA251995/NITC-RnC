@@ -28,6 +28,7 @@
                     //$("#content").show();
                 });
                 $("#foot").load("footer.html");
+                $("#mod").load("modal.html");
 
                 $.getJSON("db/agencies.json", function(data) {
                     for (var i = 0; i < data.length; i++) {
@@ -39,6 +40,8 @@
         </script>
     </head>
     <body class="d-flex flex-column h-100">
+        <div id="mod"></div>
+        
         <header class="p-4">
             <div id="head"></div>
             <div id="menu"></div>
