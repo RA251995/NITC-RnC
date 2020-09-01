@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top p-1 mx-3 rounded">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top rounded">
     <button class="navbar-toggler mr-2 ml-auto" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -8,8 +8,12 @@
             <li id="menu-home" class="nav-item px-2">
                 <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
-            <li id="menu-projects" class="nav-item px-2">
-                <a class="nav-link" href="projects.html">Projects</a>
+            <li id="menu-projects" class="nav-item px-2 dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="projects-frg.html">FRG Projects</a>
+                    <a class="dropdown-item" href="projects-sponsored.html">Sponsored Projects</a>
+                </div>
             </li>
             <li id="menu-fellowships"id="menu-fellowships" class="nav-item px-2">
                 <a class="nav-link" href="fellowships.html">Fellowships</a>
